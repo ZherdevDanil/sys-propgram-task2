@@ -5,11 +5,14 @@ class Calculator
 {
     public:
 
-        int Add (double, double);
-        int Sub (double, double);
+        double Add (double, double);
+        double Sub (double, double);
 
 
-        int Mul (double, double);
+        double Mul (double, double);
+        double AddAndMul (double,double,double);
+        double Div(double,double);
+
 
 };
 
